@@ -69,7 +69,7 @@ jobs:
             --name OfflineReminder \
             --icon app/assets/tray.icns \
             --osx-bundle-identifier com.example.offlinereminder \
-            --add-data "app/assets:app/assets" \
+            --add-data "app/assets:assets" \
             run.py
 
       - name: Zip .app
